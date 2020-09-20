@@ -2,7 +2,6 @@ import React from 'react'
 
 import { ErrorMessage, Formik, Form, Field } from 'formik'
 import * as yup from 'yup'
-import axios from 'axios'
 import './Login.css'
 
 
@@ -37,6 +36,7 @@ const Login = () => {
                         <Field
                             name="password"
                             className="Login-Field"
+                            type="password"
                         />
                         <ErrorMessage
                             component="span"
